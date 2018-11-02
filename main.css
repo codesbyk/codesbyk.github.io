@@ -494,10 +494,8 @@ svg {
     width: 45px;
     border: 1px solid #fefefe;
   }
-
-  .page {
-    overflow-y: scroll;
-  }
+  
+  
   p {
     font-size: 16px;
   }
