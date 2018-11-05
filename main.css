@@ -553,7 +553,7 @@ svg {
     height: auto;
   }
   .page#p3 .page_content .education {
-    padding: 20px 0 0 45px;
+    padding: 35px 0 0 45px;
     flex-direction: column;
     align-items: initial;
   }
@@ -575,7 +575,7 @@ svg {
     height: auto; 
   }
   .page#p4 .page_content .projects {
-    padding: 50px 0 0 45px;
+    padding: 35px 0 0 45px;
   }
 
   .page#p4 .page_content .projects div h2 {
@@ -587,7 +587,7 @@ svg {
     height: auto;
   }
   .page#p5 .page_content .skills {
-    padding: 60px 0 0 45px;
+    padding: 35px 0 0 45px;
   }
 
   .page#p5 .page_content .skills .technologies {
