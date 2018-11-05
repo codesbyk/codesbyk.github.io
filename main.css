@@ -571,8 +571,11 @@ svg {
   }
 
   /* ================ Page 4 ================ */
+  .page#p4 .page_content {
+    height: auto; 
+  }
   .page#p4 .page_content .projects {
-    padding: 20px 0 0 45px;
+    padding: 50px 0 0 45px;
   }
 
   .page#p4 .page_content .projects div h2 {
