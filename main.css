@@ -557,7 +557,6 @@ svg {
   /* ================== Page 5 =============== */
   .page#p5 .page_content .skills {
     padding: 20px 0 0 45px;
-    flex-direction: row;
   }
 
   .page#p5 .page_content .skills .technologies {
