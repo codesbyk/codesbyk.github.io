@@ -408,7 +408,6 @@ a {
   padding: 20px 100px;
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
 }
