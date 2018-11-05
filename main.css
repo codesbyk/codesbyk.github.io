@@ -328,12 +328,11 @@ a {
 /*=========== Page 2 ==========*/
 .page#p2 .page_content {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 90%;
   justify-content: center;
   height: 90%;
 }
-
 .page#p2 .page_content .experience {
   padding: 20px 100px;
   margin-bottom: 15px;
@@ -366,7 +365,6 @@ a {
 /*============= Page 3 =============*/
 .page#p3 .page_content {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   width: 90%;
   justify-content: center;
@@ -439,7 +437,6 @@ a {
   height: 100%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -483,7 +480,7 @@ svg {
 
 .mainHeading {
   padding: 20px 0;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 400;
 }
 
@@ -492,14 +489,13 @@ svg {
     width: 45px;
     border: 1px solid #fefefe;
   }
-  
-  
+
   p {
     font-size: 16px;
   }
-  
+
   .page {
-    overflow-y: scroll; 
+    overflow-y: scroll;
   }
 
   /* =============== Page 1 ============= */
@@ -529,20 +525,36 @@ svg {
     height: 100%;
     justify-content: initial;
   }
+  .page#p2 .page_content .experience .experience__head {
+    flex-direction: column;
+    align-items: start;
+  }
+
   .mainHeading.exp,
   .mainHeading.edu {
-    padding: 20px 0 0 45px;
+    padding: 60px 0 0 45px;
   }
 
   .page#p2 .page_content .experience {
     padding: 20px 45px;
   }
 
+  .page#p2 .page_content .experience .experience__head .experience-title h2 {
+    font-size: 18px;
+  }
+  .page#p2 .page_content .experience .experience__head .experience-title h3,
+  .page#p2 .page_content .experience .experience__head .experience__date span {
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+
   /* ================ Page 3 ================= */
+  .page#p3 .page_content {
+    height: auto;
+  }
   .page#p3 .page_content .education {
     padding: 20px 0 0 45px;
     flex-direction: column;
-    flex-wrap: no-wrap;
     align-items: initial;
   }
 
@@ -550,14 +562,29 @@ svg {
     margin-top: 5px;
   }
 
+  .page#p3 .page_content .education .education__body h2 {
+    font-size: 20px;
+  }
+
+  .page#p3 .page_content .education .education__date span {
+    font-size: 16px;
+  }
+
   /* ================ Page 4 ================ */
   .page#p4 .page_content .projects {
-    padding: 100px 0 0 45px;
+    padding: 20px 0 0 45px;
+  }
+
+  .page#p4 .page_content .projects div h2 {
+    font-size: 20px;
   }
 
   /* ================== Page 5 =============== */
+  .page#p5 .page_content {
+    height: auto;
+  }
   .page#p5 .page_content .skills {
-    padding: 20px 0 0 45px;
+    padding: 60px 0 0 45px;
   }
 
   .page#p5 .page_content .skills .technologies {
