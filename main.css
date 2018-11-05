@@ -329,7 +329,6 @@ a {
 .page#p2 .page_content {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   width: 90%;
   justify-content: center;
   height: 90%;
