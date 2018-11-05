@@ -499,6 +499,10 @@ svg {
   p {
     font-size: 16px;
   }
+  
+  .page {
+    overflow-y: scroll; 
+  }
 
   /* =============== Page 1 ============= */
   ul#menu {
