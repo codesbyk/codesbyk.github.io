@@ -542,6 +542,7 @@ svg {
   .page#p3 .page_content .education {
     padding: 20px 0 0 45px;
     flex-direction: column;
+    flex-wrap: no-wrap;
     align-items: initial;
   }
 
